@@ -1,0 +1,29 @@
+{
+    "project" : "Content Factory",
+    "plugin" : [
+    {
+         "id" : "widgets",
+    "title" : "Widgets",
+    "isContainer": true
+    },
+   
+
+{
+    "id" : "eds",
+    "containerId" :"widgets",
+    "title" : "EDS Tutorial",
+    "environments" : ["edit", "dev", "preview", "live"],
+    "url" : "https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/overview",
+    "passRefferrer" : true 
+},
+{
+    "id" : "adobe",
+    "containerId" : "widgets",
+    "title" : "Adobe",
+    "environments" : ["edit", "dev", "preview", "live"],
+    "url" : "https://www.adobe.com/home",
+    "passRefferrer" : true
+
+}
+]
+}
