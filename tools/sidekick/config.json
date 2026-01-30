@@ -6,8 +6,6 @@
     "title" : "Widgets",
     "isContainer": true
     },
-   
-
 {
     "id" : "eds",
     "containerId" :"widgets",
