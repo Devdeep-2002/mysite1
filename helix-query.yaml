@@ -6,7 +6,7 @@ idices:
       - '/**'
     exclude::
       - '/blogs/**'
-    target:'/query-index'
+    target: '/query-index'
     properties:
      title:
        select: head > meta[property="og:title"]
